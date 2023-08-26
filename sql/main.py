@@ -1,10 +1,4 @@
 import sqlite3
-<<<<<<< Updated upstream
-
-
-
-
-=======
 import csv #adds csv library to read csv files
 conn = sqlite3.connect('metals.db') #Creates database called gold
 cursor = conn.cursor() #apparently you need this to execute SQL commands
@@ -30,7 +24,6 @@ while (i < 10):
 
 conn.commit() #commits all the shit into itself and makes it permanant 
 conn.close() #kills itself
->>>>>>> Stashed changes
 
 
 
